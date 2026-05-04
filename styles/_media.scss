@@ -109,6 +109,98 @@
   .step__label {
     font-size: 12px;
   }
+/styles for frame3
+
+  .box-container {
+    h3 {
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    button {
+      width: 40%;
+      padding: 15px 30px;
+      margin-left: 20px;
+    }
+  }
+
+  //styles for frame4
+  .box-container {
+    h3 {
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 12px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    button {
+      width: 40%;
+      padding: 15px 30px;
+      margin-left: 20px;
+    }
+  }
+//styles for frame3
+  .frame3 {
+
+    .box-container {
+      margin-left: 90px;
+
+      h4 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      button {
+        width: 228px;
+        height: 63px;
+        padding: 10px;
+      }
+    }
+  }
+
+  //styles for frame4
+  .frame4 {
+    .box-container {
+      margin-right: 90px;
+
+      h4 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 15px;
+      }
+
+      button {
+        width: 228px;
+        height: 63px;
+        padding: 10px;
+      }
+    }
+  }
 
 
 }
