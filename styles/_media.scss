@@ -26,7 +26,27 @@
     font-size: 12px;
     margin-top: 10px;
   }
+// styles for navigation
+  .logo {
+    font-size: 10px;
+    letter-spacing: 0px;
+  }
 
+  /*styles for navigation links*/
+.logo {
+        font-size: 18px;
+    
+  }
+
+  .nav-links {
+    gap: 5px;
+
+    a {
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+
+  }
 
 }
 
@@ -61,6 +81,24 @@
     font-size: 10px;
     margin-top: 7px;
   }
+  /*navigation styles*/
+
+  .logo {
+    font-size: 24px;
+  }
+
+  /*styles for navigation links*/
+  .nav-links {
+
+    gap: 40px;
+
+    a {
+
+      font-size: 14px;
+    }
+
+  }
+
 
 }
   
