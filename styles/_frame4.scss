@@ -1,0 +1,60 @@
+@use 'color';
+@use 'fontfamily';
+
+//styles for mobile
+/*styles for section4*/
+.frame4 {
+
+  background-image: url(/images/Rectangle\ 41445.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  color: color.$secondary-color;
+  padding: 30px;
+  
+
+  .box-container {
+    background-color: color.$eleventh-color;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    font-family: fontfamily.$primary-font-family;
+    padding: 30px;
+
+    h2 {
+
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 1.5px;
+    }
+
+    h3 {
+      font-size: 15px;
+      text-transform: uppercase;
+      line-height: 1.2;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    button {
+      background-color: color.$primary-color;
+      font-family: fontfamily.$secondary-font-family;
+      border: none;
+      width: 150px;
+      padding: 15px 30px;
+      margin-left: 20px;
+      color: color.$secondary-color;
+    }
+
+    button:hover {
+      background-color: color.$sixth-color;
+      border: 1px solid color.$primary-color;
+    }
+  }
+}
