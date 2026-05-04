@@ -1,0 +1,111 @@
+@use 'color';
+@use 'fontfamily';
+
+//styles for mobile
+/*header styles */
+header {
+  background-image: url(/images/image-1.png);
+  background-size: cover;
+  position: relative;
+  font-family: fontfamily.$primary-font-family ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  ._frame1-layout {
+    width: auto;
+    height: 100%;
+  }
+
+  /*styles for heading */
+  .main-heading {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: color.$secondary-color;
+    line-height: 1.0;
+    letter-spacing: 4.8px;
+
+  }
+
+  /*styles for sub-heading */
+  .sub-heading {
+    font-size: 22px;
+    line-height: 2.6;
+    color: color.$secondary-color;
+    letter-spacing: 6.8px;
+    margin-top: 10px;
+  }
+
+  /* Style the search field */
+  .search {
+    margin-top: 40px;
+    max-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    form {
+      display: flex;
+      width: 100%;
+    }
+
+    input {
+      padding-right: 5px;
+      font-size: 12px;
+      letter-spacing: 2.8px;
+      border: 1px solid color.$secondary-color;
+      background: color.$third-color;
+      outline: none;
+      flex: 1;
+
+    }
+
+    /* Style the submit button */
+    button {
+
+      padding: 10px;
+      background: color.$fourth-color;
+      color: color.$secondary-color;
+      font-size: 17px;
+      border: 1px solid color.$secondary-color;
+      border-left: none;
+      /* Prevent double borders */
+      cursor: pointer;
+
+    }
+
+    button:hover {
+      background: color.$fifth-color;
+    }
+
+    /* Clear floats */
+    button::after {
+      content: " ";
+      clear: both;
+      display: table;
+    }
+  }
+
+
+  /*sroll down styles*/
+  .scroll {
+    font-size: 14px;
+    color: color.$secondary-color;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+  }
+
+  .scroll-icon {
+    color: color.$secondary-color;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+}

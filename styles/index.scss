@@ -1,0 +1,16 @@
+@use 'header';
+@use 'navigation';
+@use 'frame1';
+@use 'frame2';
+@use 'frame3';
+@use 'frame4';
+@use 'frame5';
+@use 'footer';
+@use "media";
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

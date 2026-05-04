@@ -1,0 +1,42 @@
+@use 'color';
+
+/*navigation styles*/
+.nav-bar {
+  padding: 10px;
+  background-color: color.$primary-color;
+}
+  .nav-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    color: color.$secondary-color;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 5px;
+  }
+
+  /*styles for navigation links*/
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 5px;
+
+    a {
+      color: color.$secondary-color;
+      text-decoration: none;
+      font-size: 8px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    
+    }
+
+  }
+
+
+

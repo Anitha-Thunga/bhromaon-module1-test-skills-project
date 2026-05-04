@@ -1,0 +1,79 @@
+@use 'color';
+@use 'fontfamily';
+
+//style for mobile
+
+/* styles for section7*/
+footer {
+  text-align: center;
+  color: color.$secondary-color;
+  padding: 80px 50px;
+  background-color: color.$eleventh-color;
+  font-family: fontfamily.$primary-font-family;
+
+  h3 {
+
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 2.6;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+
+  }
+
+  p {
+
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2.6;
+    letter-spacing: 1.6;
+  }
+
+  /* styles for icons*/
+
+  .icon-container {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin-top: 10px;
+    list-style: none;
+
+    .facebook-icon {
+      color: color.$secondary-color;
+
+      &:hover {
+        color: color.$primary-color;
+        cursor: pointer;
+      }
+    }
+
+    .twitter-icon {
+      color: color.$secondary-color;
+
+      &:hover {
+        color: color.$primary-color;
+        cursor: pointer
+      }
+    }
+
+    .linkedin-icon {
+      color: color.$primary-color;
+
+      &:hover {
+        color: color.$secondary-color;
+        cursor: pointer
+      }
+    }
+
+    .youtube-icon {
+      color: color.$secondary-color;
+
+      &:hover {
+        color: color.$primary-color;
+      }
+    }
+
+  }
+}

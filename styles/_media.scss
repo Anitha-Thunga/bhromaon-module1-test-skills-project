@@ -1,0 +1,67 @@
+@use "color";
+@use "fontfamily";
+
+//styles for  TABLET (min-width: 768px) 
+@media (min-width: 768px) {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  //styles for header section
+  /*styles for heading */
+  .main-heading {
+    font-size: 36px;
+  }
+
+  /*styles for sub-heading */
+  .sub-heading {
+    font-size: 18px;
+  }
+
+  /*sroll down styles*/
+  .scroll {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+
+}
+
+  
+  
+  
+
+// styles for  desktop (min-width: 1200px) 
+@media (min-width: 1200px) {
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  //styles for header section
+
+  /*styles for heading */
+  .main-heading {
+    font-size: 26px;
+  }
+
+  /*styles for sub-heading */
+  .sub-heading {
+    font-size: 16px;
+  }
+
+
+  /*sroll down styles*/
+  .scroll {
+    font-size: 10px;
+    margin-top: 7px;
+  }
+
+}
+  
+    

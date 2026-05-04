@@ -1,3 +1,245 @@
+/*header styles */
+header {
+  background-image: url(/images/image-1.png);
+  background-size: cover;
+  position: relative;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header ._frame1-layout {
+  width: auto;
+  height: 100%;
+}
+header {
+  /*styles for heading */
+}
+header .main-heading {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  line-height: 1;
+  letter-spacing: 4.8px;
+}
+header {
+  /*styles for sub-heading */
+}
+header .sub-heading {
+  font-size: 22px;
+  line-height: 2.6;
+  color: white;
+  letter-spacing: 6.8px;
+  margin-top: 10px;
+}
+header {
+  /* Style the search field */
+}
+header .search {
+  margin-top: 40px;
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+header .search form {
+  display: flex;
+  width: 100%;
+}
+header .search input {
+  padding-right: 5px;
+  font-size: 12px;
+  letter-spacing: 2.8px;
+  border: 1px solid white;
+  background: #f1f1f1;
+  outline: none;
+  flex: 1;
+}
+header .search {
+  /* Style the submit button */
+}
+header .search button {
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  border-left: none;
+  /* Prevent double borders */
+  cursor: pointer;
+}
+header .search button:hover {
+  background: #0b7dda;
+}
+header .search {
+  /* Clear floats */
+}
+header .search button::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+header {
+  /*sroll down styles*/
+}
+header .scroll {
+  font-size: 14px;
+  color: white;
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+header .scroll-icon {
+  color: white;
+  margin-left: 130px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
 
+/*navigation styles*/
+.nav-bar {
+  padding: 10px;
+  background-color: #5474FD;
+}
+
+.nav-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+
+/*styles for navigation links*/
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 5px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* styles for section7*/
+footer {
+  text-align: center;
+  color: white;
+  padding: 80px 50px;
+  background-color: #232323;
+  font-family: "Josefin Sans", sans-serif;
+}
+footer h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 2.6;
+  letter-spacing: 3.36px;
+  text-transform: uppercase;
+}
+footer p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2.6;
+  letter-spacing: 1.6;
+}
+footer {
+  /* styles for icons*/
+}
+footer .icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-top: 10px;
+  list-style: none;
+}
+footer .icon-container .facebook-icon {
+  color: white;
+}
+footer .icon-container .facebook-icon:hover {
+  color: #5474FD;
+  cursor: pointer;
+}
+footer .icon-container .twitter-icon {
+  color: white;
+}
+footer .icon-container .twitter-icon:hover {
+  color: #5474FD;
+  cursor: pointer;
+}
+footer .icon-container .linkedin-icon {
+  color: #5474FD;
+}
+footer .icon-container .linkedin-icon:hover {
+  color: white;
+  cursor: pointer;
+}
+footer .icon-container .youtube-icon {
+  color: white;
+}
+footer .icon-container .youtube-icon:hover {
+  color: #5474FD;
+}
+
+@media (min-width: 768px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  /*styles for heading */
+  .main-heading {
+    font-size: 36px;
+  }
+  /*styles for sub-heading */
+  .sub-heading {
+    font-size: 18px;
+  }
+  /*sroll down styles*/
+  .scroll {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  /*styles for heading */
+  .main-heading {
+    font-size: 26px;
+  }
+  /*styles for sub-heading */
+  .sub-heading {
+    font-size: 16px;
+  }
+  /*sroll down styles*/
+  .scroll {
+    font-size: 10px;
+    margin-top: 7px;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 /*# sourceMappingURL=index.css.map */

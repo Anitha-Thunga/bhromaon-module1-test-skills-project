@@ -4,13 +4,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BHROMAON MODULE1 TEST SKILLS PROJECT</title>
+  <title>BHROMAON Travel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/index.css">
 </head>
 
 <body>
-<h1>welcome to travel page</h1>
+  <!--header-->
+  <header>
+    <div class="frame1-layout">
+      <div class="frame1-content">
+        <h1 class="main-heading">Bhromaon</h1>
+        <p class="sub-heading">Safe Travel Anywhere</p>
+
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Search Your Travel Destination" name="search" required>
+            <button type="submit">Search
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+        <p class="scroll">Scroll Down </p>
+        <i class="fa-solid fa-angle-down scroll-icon"></i>
+      </div>
+    </div>
+  </header>
+  <!--navigation-->
+  <nav class="nav-bar">
+    <div class="nav-container">
+      <div class="logo">
+        <h3>Bhromaon</h3>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">who we are</a></li>
+        <li><a href="#">what we do</a></li>
+        <li><a href="#">travel with us</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!--Section1-->
+    <section class="frame1">
+
+      <div class="left-container">
+        <h2>Why Choose Us</h2>
+        <p>Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment,
+          so blinded by desire, that they cannot foresee <br>
+          Ddislike men who are so beguiled and demoralized by the
+          charms of pleasure of the moment, so blinded by desire, that.</p>
+
+        <button class="explore-btn">Explore places</button>
+
+      </div>
+      <div class="right-container">
+        <img class="top-img" src="images/image-2.png" alt="A beautiful scenary near lake">
+        <img class="bottom-img" src="images/Image (6).png" alt="A man standing on the mountain">
+      </div>
+    </section>
+    <!--section2-->
+    <section class="steps">
+      <!-- SVG cubic bezier curves -->
+      <svg class="steps__curves" viewbox="0 0 600 80" preserveAspectRatio="none">
+        <!-- Curve 1- Search - Select -->
+        <path class="curve" d="M 110,60 C 160,-10 200,-10 280,60" />
+        <!-- Curve 2- Select - Book -->
+        <path class="curve" d="M 320,60 C 380,-10 420,-10 490,60" />
+      </svg>
+
+      <div class="step">
+        <div class="step__icon step__icon--search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <p class="step__label">Search Places</p>
+      </div>
+
+      <div class="step">
+        <div class="step__icon step__icon--select">
+          <i class="fa-solid fa-circle-check circle-check-icon"></i>
+        </div>
+        <p class="step__label">Select Places</p>
+      </div>
+
+      <div class="step">
+        <div class="step__icon step__icon--book">
+          <i class="fa-regular fa-thumbs-up"></i>
+        </div>
+        <p class="step__label">Book & Enjoy</p>
+      </div>
+    </section>
+
+    <!--section3-->
+    <section class="frame3">
+      <div class="box-container">
+        <h2>Spain</h2>
+        <h3>Grand Spain Madrid</h3>
+        <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was
+          account born and I account will give you a complete account of the system</p>
+        <button type="button">Book now</button>
+      </div>
+    </section>
+
+    <!--section4-->
+    <section class="frame4">
+      <div class="box-container">
+        <h2>Spain</h2>
+        <h3>Grand Spain Madrid</h3>
+        <p>But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was
+          account born and I account will give you a complete account of the system</p>
+        <button type="button">Book now</button>
+      </div>
+    </section>
+    <!--section5-->
+    <section class="frame5">
+
+      <h2 class="title">What Our Tourist Say</h2>
+
+      <div class="testimonial-card">
+
+        <div class="image-box">
+          <img src="images/Rectangle 41441 1 (1).png" alt="a smiling tourist enjoying travel experience">
+        </div>
+
+        <div class="content-box">
+          <h4>SAM SUMON</h4>
+          <p>
+            But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain.
+            But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was
+            born and I will give you a complete account of the system.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+    <!--footer-->
+    <footer>
+      <h3>Bhromaon</h3>
+      <p>Safe Travel Anywhere</p>
+
+      <ul class="icon-container">
+        <li> <i class="fa-brands fa-facebook-f facebook-icon"></i></li>
+        <li> <i class="fa-brands fa-twitter twitter-icon"></i> </li>
+        <li> <i class="fa-brands fa-linkedin-in linkedin-icon"></i></li>
+        <li> <i class="fa-brands fa-youtube youtube-icon"></i></li>
+      </ul>
+    </footer>
+  </main>
 </body>
 
 </html>
