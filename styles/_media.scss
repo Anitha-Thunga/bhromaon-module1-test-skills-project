@@ -109,9 +109,8 @@
   .step__label {
     font-size: 12px;
   }
-/styles for frame3
 
-  .box-container {
+  /styles for frame3 .box-container {
     h3 {
       font-size: 16px;
     }
@@ -151,7 +150,8 @@
       margin-left: 20px;
     }
   }
-//styles for frame3
+
+  //styles for frame3
   .frame3 {
 
     .box-container {
@@ -202,6 +202,41 @@
     }
   }
 
+  //styles for frame5
+  .title {
+    font-size: 24px;
+  }
+
+  /*styles tourist information*/
+  .tourist-container {
+    gap: 10px;
+    margin: 0;
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  /*styles for tourist image*/
+  .tourist-image {
+    img {
+      width: 250px;
+      height: auto;
+      border-radius: 4px;
+    }
+  }
+
+  .tourist-text {
+    max-width: 300px;
+
+    h3 {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 10px;
+
+    }
+  }
 
 }
 
@@ -322,6 +357,38 @@
   .step__label {
     font-size: 8px;
   }
+
+  // styels for frame 5
+  .frame5 {
+
+    /*styles tourist information*/
+    .tourist-container {
+      gap: 10px;
+    }
+
+    /*styles for tourist image*/
+    .tourist-image {
+      img {
+        width: 350px;
+        height: auto;
+        border-radius: 4px;
+      }
+    }
+
+    .testimonial-card {
+      display: flex;
+      flex-direction: row;
+      max-width: 900px;
+    }
+
+
+    .tourist-text {
+      text-align: left;
+      color: color.$secondary-color;
+      max-width: 120px;
+    }
+  }
+
 
 
 }
