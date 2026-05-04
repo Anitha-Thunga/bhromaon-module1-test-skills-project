@@ -1,0 +1,84 @@
+@use 'color';
+@use 'fontfamily';
+
+//styles for mobile
+/* styles  for section1*/
+.frame1 {
+  background-image: url(../images/Rectangle\ 41444.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: color.$secondary-color;
+  padding: 10px;
+
+  /* styles for left section*/
+  .left-container {
+    line-height: 1.6;
+    
+    h2 {
+      font-family: fontfamily.$secondary-font-family;
+      font-size: 24px;
+    
+    }
+
+    p {
+      font-family: fontfamily.$secondary-font-family;
+      font-size: 10px;
+      margin-bottom: 10px;
+    
+    }
+
+
+    .explore-btn {
+      background-color: color.$primary-color;
+      font-family:fontfamily.$secondary-font-family;
+      padding: 10px;
+      text-transform: uppercase;
+      border: none;
+      cursor: pointer;
+      letter-spacing: 1.2px;
+      font-size: 10px;
+      color: color.$secondary-color;
+      transition:  background 0.3s ease;
+      width:150px;
+      height:50px;
+      line-height: 2.6;
+      margin-bottom: 20px;
+
+      &:hover {
+        background: color.$sixth-color;
+      }
+
+    }
+  }
+
+  /*styles for right section*/
+  .right-container {
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    img {
+      width: 80%;
+      border-radius: 4px;
+    }
+
+    .top-img {
+      align-self: flex-start;
+
+    }
+
+    .bottom-img {
+      align-self: flex-end;
+    }
+
+  }
+
+}
+
