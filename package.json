@@ -1,5 +1,29 @@
 {
+  "name": "bhromaon-module1-test-skills-project",
+  "version": "1.0.0",
+  "description": "test skills project for html and css",
+  "main": "index.js",
+
+  "scripts": {
+    "sass": "sass styles:styles --watch",
+    "compile-sass": "sass styles:styles",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
   "dependencies": {
     "sass": "^1.99.0"
-  }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anitha-Thunga/bhromaon-module1-test-skills-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Anitha-Thunga/bhromaon-module1-test-skills-project/issues"
+  },
+  "homepage": "https://github.com/Anitha-Thunga/bhromaon-module1-test-skills-project#readme"
 }
