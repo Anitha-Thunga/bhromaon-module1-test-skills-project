@@ -1,0 +1,77 @@
+@use 'color';
+@use 'fontfamily';
+
+//styles for mobile
+.steps {
+  position: relative;
+  background-color: color.$seventh-color;
+  padding: 100px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* SVG curves */
+.steps__curves {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 0;
+}
+
+.curve {
+  fill: none;
+  stroke: color.$eigth-color;
+  /* light white curve */
+  stroke-width: 3;
+}
+
+/* Step items */
+.step {
+  position: relative;
+  z-index: 1;
+  /* bring above SVG */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Icons */
+.step__icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+/* Individual icon styles */
+.step__icon--search {
+  color: color.$primary-color;
+}
+
+.step__icon--select {
+  color: color.$seventh-color;
+  background-color: color.$ninth-color;
+  border: 0px solid color.$ninth-color; // red border
+  border-radius: 50%;
+  font-size: 30px;
+
+}
+
+.step__icon--book {
+  color: color.$tenth-color;
+}
+
+/* Text */
+.step__label {
+  color: color.$secondary-color;
+  font-family: fontfamily.$secondary-font-family;
+  font-size: 18px;
+}
