@@ -1,6 +1,6 @@
 /*header styles */
 header {
-  background-image: url(/images/image1.png);
+  background-image: url(images/image1.png);
   background-size: cover;
   position: relative;
   font-family: "Josefin Sans", sans-serif;
@@ -276,7 +276,7 @@ header .scroll-icon {
 
 /* styles for section3*/
 .frame3 {
-  background-image: url(/images/Rectangle41445.png);
+  background-image: url(/images/);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
